@@ -8,7 +8,6 @@ from pyrevit import forms
 
 doc = __revit__.ActiveUIDocument.Document
 
-#viewsheet = forms.select_sheets(button_name='Select Sheet Set')
 rooms= FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Rooms)\
                     .WhereElementIsNotElementType()\
                     .ToElements()

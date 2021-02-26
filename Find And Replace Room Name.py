@@ -1,4 +1,4 @@
-"""Find and replace views name of selected sheet sets"""
+"""Find and replace rooms name in project"""
 __author__='NguyenKhanhTien - khtien0107@gmail.com'
 from Autodesk.Revit.DB import FilteredElementCollector, BuiltInCategory, Transaction
 from rpw.ui.forms import TextInput, FlexForm, Label, ComboBox, TextBox,\

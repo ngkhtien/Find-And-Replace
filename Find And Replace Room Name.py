@@ -35,10 +35,8 @@ for room in rooms:
     tam=custom_param.AsString()
     if find in custom_param.AsString():
        custom_param.Set(custom_param.AsString().replace(find, replace))
-       #number = sheet.LookupParameter("Sheet Number")
        count+=1
        prompt+= '\n' + tam + divide + custom_param.AsString()
-       #prompt+= '\n' + "Sheet "+  number.AsString() + ': ' + custom_param.AsString() 
 
 if count==0:
     prompt = 'No room found'
